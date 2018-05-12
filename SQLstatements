@@ -1,0 +1,8 @@
+CREATE TABLE UserItemRelation (
+   keyUserItemRelation  SERIAL  NOT NULL,
+   User_id    VARCHAR(1000),
+   Item_id    VARCHAR(1000),
+   Ratings 	  VARCHAR(1000),
+   NormalizedRatings VARCHAR(1000),
+   CONSTRAINT keyUserItemRelation PRIMARY KEY (keyUserItemRelation)
+);
